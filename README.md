@@ -64,3 +64,10 @@ push(git push origin main): "it will upload modified content,codes or files to t
 
 8) How to upload all changes that you have made so that the project will save or stay up to date in the github or upload modify content to the github from local: ~> git push origin main
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+9) if i want to create a new repository in the GitHub through the local repo or if you want to upload the files and folders in GitHub with the new repository on GitHub you can start by using this command : ~> git init
+                     > create a new repository in GitHub
+                     ~> git remote add "any name" "repo link"
+		     ~> git push "any name" main
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
