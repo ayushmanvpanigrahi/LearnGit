@@ -91,7 +91,7 @@ modified -> save in github (git push origin main): "it will upload modified cont
 
 16) how to switch in any branch : ~> git checkout "if exits enter branch name that you want to navigate"
 
-17) how to delete the branch : ~> git branch -d "if exits enter branch name that you want to delete new changes in branch "two" "
+17) how to delete the branch : ~> git branch -d "if exits enter branch name that you want to delete changes i make"
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
