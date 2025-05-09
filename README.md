@@ -94,3 +94,16 @@ modified -> save in github (git push origin main): "it will upload modified cont
 17) how to delete the branch : ~> git branch -d "if exits enter branch name that you want to delete git done"
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+18) how to do if you make some changes in the new branch and you want to save the new changes on the GitHub you can use this command:
+~> git add .
+~  git commit -M "new branch commit"
+~  git push origin "if exits enter the new branch name in which you want to save the changes"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+19) how to check the changes in two different branches: ~> git diff "if exits enter the name of the branch that you want to check the difference"
+
+20) how to merge the two branches : ~> git merge "if exits enter the name of the branch that you want to merge with"
+(option 2) : you can use "compare and pull request" in GitHub to merge and save the changes in the main branch.
+
+21) if you use option 2 then you have to use one more git command to see the changes in the main branch on local machine: ~> git pull origin main
