@@ -83,4 +83,14 @@ modified -> save in github (git push origin main): "it will upload modified cont
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-13) 
+13) how to check which branch currently you are in : ~> git branch
+
+14) i you want to rename the branch name then how can you do that : ~> git branch -M "enter new name of the current branch"
+
+15) how to create a new branch : ~> git checkout -b "enter name of the new branch"
+
+16) how to switch in any branch : ~> git checkout "if exits enter branch name that you want to navigate"
+
+17) how to delete the branch : ~> git branch -d "if exits enter branch name that you want to delete"
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
