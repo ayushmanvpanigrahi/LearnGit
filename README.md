@@ -44,14 +44,17 @@ Implementation:-
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-State means :- 
+State And Types of State :- 
 untracked or modified -> Staged(git add .) -> 
 (if you see that some files is untracked or new files are created or if you see that in some files the code is modified and you satisfied with the modified files or code then you can add the changes.)
 
-Commit(git commit -m "some message"): "It will save the updated files or codes 
+modified -> Staged(git commit -m "some message"): "It will save the updated files or codes 
 (if you satisfied with the Updated code or files but you want to make more modifications in the code or files then you can commit to save the changes which is correct.) -> 
 
-push(git push origin main): "it will upload modified content,codes or files to the github from local" ->
+what is mean by origin ?
+-> origin is a name of the folder that we have specified for the specific repository that we can get help to save the files or folders or contents in the specific repository.
+
+modified -> save in github (git push origin main): "it will upload modified content,codes or files to the github from local" ->
 (if you satisfied with the output of the code or files then you can push the code in the GitHub).
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -65,9 +68,19 @@ push(git push origin main): "it will upload modified content,codes or files to t
 8) How to upload all changes that you have made so that the project will save or stay up to date in the github or upload modify content to the github from local: ~> git push origin main
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-9) if i want to create a new repository in the GitHub through the local repo or if you want to upload the files and folders in GitHub with the new repository on GitHub you can start by using this command : ~> git init
-                     > create a new repository in GitHub
-                     ~> git remote add "any name" "repo link"
-		     ~> git push "any name" main
+9) if you make the new folder in the local system and you make the folder into git repo then how can you do using the git command : ~> git init
+
+10) How to see the name of the remote or specific repository name or specific folder name (which when making any changes that we can push with the help of that name) that we can check using git command :- git remote -v
+
+11) And How if we want to define the name of the folder and for the specific repository using git command : ~> git remote add "any name like origin " "repo link"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+12) how if i want to upload the files or folders in GitHub with the new repository, i can start by using this command : 
+                     ~> git init
+                     >  create a new repository in GitHub
+                     ~> git remote add "any name like origin " "repo link"
+		             ~> git push "any name" main
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+13) 
