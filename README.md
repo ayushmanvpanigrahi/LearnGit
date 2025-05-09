@@ -107,3 +107,22 @@ modified -> save in github (git push origin main): "it will upload modified cont
 (option 2) : you can use "compare and pull request" in GitHub to merge and save the changes in the main branch.
 
 21) if you use option 2 then you have to use one more git command to see the changes in the main branch on local machine: ~> git pull origin main
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+22) if you make some changes and you added for staged means you use this command (git add .) ,but you use this command by mistake and you have to come back or reset from the staged using git command then you have to use this : ~> git reset . or "file name"
+
+23) if you make some changes in the code or file and you added and committed means you use this command (git add . and git commit -m "some text") ,but you use this command by mistake and you have to come back or reset from the staged and commit using the git command then you have to use this : ~> git reset head~1 
+
+(option2)
+if you have done multiple commits by mistake but you don't want this new changes that you have committed by mistake and you want go for the specific commit then you can you this command :
+~> git log
+> check the hash code of the specific commit that you want and copy it, then use this below command.
+~> git reset <"commit hash">
+> and if you want to get all the code of the specific commit then you can you this below command.
+~> git reset --hard <"commit hash">
+
+24) how to see the commit hash code using git command : ~> git log
+
+25) how to reset with the help of commit hash code using git command : ~> git reset <"commit hash"> 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
